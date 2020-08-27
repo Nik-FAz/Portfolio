@@ -1,0 +1,75 @@
+.page-authorization {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%; }
+  .page-authorization .first-screen__bg {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 100%; }
+  .page-authorization .pre-main {
+    margin-top: 35px; }
+  .page-authorization .noise {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto; }
+  .page-authorization h1 {
+    text-align: center; }
+
+.authorization {
+  width: 500px;
+  margin: 0 auto;
+  font-family: Montserrat-regular, sans-serif;
+  font-size: 16px;
+  color: #ffffff; }
+  .authorization__content {
+    padding: 30px 45px; }
+  .authorization .input-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 10px; }
+    .authorization .input-wrap-btn {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding-top: 20px; }
+      .authorization .input-wrap-btn .long-btn {
+        margin-top: 0; }
+  .authorization label {
+    padding-bottom: 10px;
+    padding-top: 10px; }
+  .authorization input, .authorization textarea, .authorization select {
+    -webkit-appearance: none;
+    width: 100%;
+    border: 2px solid #dcdcdc;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .authorization input:active, .authorization input:focus, .authorization textarea:active, .authorization textarea:focus, .authorization select:active, .authorization select:focus {
+      border: 2px solid #509f22;
+      outline: none; }
+
+@media screen and (max-width: 600px) {
+  .authorization {
+    width: 100%; }
+  .authorization__content {
+    padding: 0; } }

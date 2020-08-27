@@ -1,0 +1,30 @@
+.gallery-performances__navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 39px; }
+  .gallery-performances__navigation button {
+    font-family: Montserrat-regular, sans-serif;
+    font-size: 18px;
+    color: #545151;
+    padding: 12px 32px;
+    background-color: transparent;
+    border: 2px solid transparent; }
+    .gallery-performances__navigation button:hover {
+      border: 2px solid #509f22;
+      color: #509f22; }
+  .gallery-performances__navigation .active button {
+    font-family: Montserrat-bold, sans-serif;
+    border: 2px solid #509f22;
+    color: #509f22; }
+
+.main-gallery__block {
+  margin-top: 40px; }
+
+@media screen and (max-width: 420px) {
+  .gallery-performances__navigation {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .gallery-performances__navigation button {
+    padding: 12px 20px; } }

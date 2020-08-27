@@ -1,0 +1,15 @@
+.school-announcements {
+  padding-top: 28px;
+  padding-bottom: 5px; }
+
+.news-navigation {
+  padding-top: 6px; }
+
+@media screen and (max-width: 800px) {
+  .school-announcements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-top: 40px; } }

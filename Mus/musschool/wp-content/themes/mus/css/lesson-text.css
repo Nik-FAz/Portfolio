@@ -1,0 +1,34 @@
+.lesson-text {
+  padding-top: 60px;
+  padding-bottom: 45px; }
+  .lesson-text h2 {
+    line-height: 1.333; }
+  .lesson-text .lesson-item__foto {
+    width: 400px;
+    height: 300px;
+    min-width: 0;
+    margin-top: 12px; }
+  .lesson-text .big-card__left-block {
+    padding-left: 0; }
+  .lesson-text .big-card__right-block span {
+    padding-top: 22px;
+    padding-bottom: 38px; }
+
+@media screen and (max-width: 1180px) {
+  .lesson-text .big-card__left-block {
+    width: 42%; } }
+
+@media screen and (max-width: 1024px) {
+  .lesson-text .big-card__left-block {
+    width: 100%; }
+  .lesson-text .lesson-item__foto {
+    margin: 0 auto; } }
+
+@media screen and (max-width: 450px) {
+  .lesson-text .lesson-item__foto {
+    width: 275px;
+    height: 172px; } }
+
+@media screen and (max-width: 320px) {
+  .lesson-text .lesson-item__foto {
+    width: 100%; } }

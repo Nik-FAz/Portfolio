@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Mafia">
+	<title>Marzi Mafia</title>
+	<link rel="shortcut icon" href="../img/favicon.png" type="image/ico">
+	<link rel="stylesheet" type="text/css" href="../fonts/font-awesome/css/all.css">
+	<link rel="stylesheet" href="../libs/fancybox/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="../libs/slick/slick.css">
+	<link rel="stylesheet" href="../libs/slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+	<div class="site">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top-panel">
+					<div class="top-panel">
+						<div class="phone">
+							<div class="phone-img"><img src="../img/phone.png" alt="Phone"></div>
+							<a href="tel:+380932065987">+38 (093) 206-59-87</a>
+						</div>
+						<div class="logo">
+							<img src="../img/logo-icon.png" alt="Logo">
+							<p>Марципановая</p>
+							<p>Мафия</p>
+						</div>
+						<div class="book">
+							<button data-fancybox data-src="#modal-book" class="book__button">
+								Забронировать
+							</button>
+						</div>
+					</div>
+				</div>
+
+					<!-- Меню разворачивающееся из гамбургера -->
+
+				<div class="header__mini-menu">
+					<div class="fixed-mini-menu">
+						<span class="close"></span>
+						<ul class="fixed-mini-menu__block">
+							<li class="fixed-mini-menu__item"><a href="#reasons" class="fixed-mini-menu__link">Причины посетить</a></li>
+							<li class="fixed-mini-menu__item"><a href="#description" class="fixed-mini-menu__link">О игре</a></li>
+							<li class="fixed-mini-menu__item"><a href="#reviews" class="fixed-mini-menu__link">Отзывы о нас</a></li>
+							<li class="fixed-mini-menu__item"><a href="#gallery" class="fixed-mini-menu__link">Галерея</a></li>
+							<li class="fixed-mini-menu__item"><a href="#recom" class="fixed-mini-menu__link">Рекомендуем посетить</a></li>
+							<li class="fixed-mini-menu__item"><a href="#contacts" class="fixed-mini-menu__link">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="header__mini-menu-content">
+						<div class="mini-logo">
+							<div class="mini-logo__img"><img src="../img/logo-icon.png" alt="Logo"></div>
+							<div class="mini-logo__text">
+								<p>Марципановая</p>
+								<p>Мафия</p>
+							</div>
+						</div>
+
+							<!-- Гамбургер -->
+
+						<button class="hamburg"><span></span></button>
+
+
+					</div>
+				</div>
+
+
+				<div class="header__menu">
+					<div class="menu">
+							<ul class="menu__block menu__left">
+								<li class="menu__item"><a href="#reasons" class="menu__link">Причины посетить</a></li>
+								<li class="menu__item"><a href="#description" class="menu__link">О игре</a></li>
+								<li class="menu__item"><a href="#reviews" class="menu__link">Отзывы о нас</a></li>
+							</ul>
+							<ul class="menu__block menu__right">
+								<li class="menu__item"><a href="#gallery" class="menu__link">Галерея</a></li>
+								<li class="menu__item"><a href="#recom" class="menu__link">Рекомендуем посетить</a></li>
+								<li class="menu__item"><a href="#contacts" class="menu__link">Контакты</a></li>
+							</ul>
+					</div>
+				</div>
+				<section class="header__face h2-container">
+					<div class="header__face-container">
+						<div class="header__face-text">
+							<h2>Ешь, пей, играй <br>в Marzi Mafia</h2>
+							<p>Арт-кафе «Марципановая Мафия» - это приятная атмосфера, где можно поиграть в настольные игры для двоих или больших компаний.</p>
+							<div class="book-face book">
+								<button data-fancybox data-src="#modal-book" class="book__button">
+									Забронировать
+								</button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="header__mini-face"><img src="../img/mini-bg.png" alt="Face"></div>
+			</div>
+		</header>
+
+		
+		<div class="main">
+
+			<section class="main__reasons" id="reasons">
+				<div class="main__reasons-img">
+					<div class="main__reasons-content">
+						<h3>Причины сходить поиграть</h3>
+						<div class="reasons">
+							<ul class="reasons__block" id="for-ie">
+								<li class="reasons__item">
+									<div class="reasons__icon"><img src="../img/no-man.png" alt="no-man"></div>
+									<p>Отсутствие мирных жителей</p>
+								</li>
+								<li class="reasons__item lower-down">
+									<div class="reasons__icon"><img src="../img/min-logo-icon.png" alt="min-logo-icon"></div>
+									<p>Наличие трёх команд</p>
+								</li>
+								<li class="reasons__item lower-down">
+									<div class="reasons__icon"><img src="../img/man5.png" alt="man5"></div>
+									<p>Можно играть от 5 игроков</p>
+								</li>
+								<li class="reasons__item">
+									<div class="reasons__icon"><img src="../img/check.png" alt="check"></div>
+									<p>Атмосфера игры в стиле арт</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="main__description h2-container" id="description">
+				<div class="main__description-img">
+					<div class="main__description-content">
+						<h2>Описание игры</h2>
+						<div class="description">
+							<div class="description__img">
+								<div class="description__img-bg"><img src="../img/description-foto.png" alt="Main foto"></div>
+								<p>Арт-кафе «Марципановая Мафия» - это приятная атмосфера, где можно поиграть в настольные игры для двоих или больших компаний.</p>
+							</div>
+							<ul class="description__text">
+								<li class="description__item">
+									<div class="description__item-img"><img src="../img/time-icon.png" alt="Time"></div>
+									<div class="description__item-text">
+										<p>Длительность игры:</p>
+										<p>2 часа</p>
+										<hr class="hr-dotted">
+									</div>
+								</li>
+								<li class="description__item">
+									<div class="description__item-img"><img src="../img/people-icon.png" alt="People"></div>
+									<div class="description__item-text">
+										<p>Количество игроков:</p>
+										<p>от 5 до 10 человек</p>
+										<hr class="hr-dotted">
+									</div>
+								</li>
+								<li class="description__item">
+									<div class="description__item-img"><img src="../img/money-icon.png" alt="Money"></div>
+									<div class="description__item-text">
+										<p>Стоимость:</p>
+										<p>1000 грн с компании,</p>
+										<p>депозит в заведении с человека 50 грн</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<section class="main__discount  h2-container">
+				<div class="main__discount-content">
+					<div class="main__discount-text">
+						<h2>Марципановая Мафия</h2>
+						<p>Арт-кафе «Марципановая Мафия» - это приятная атмосфера, где можно поиграть в настольные игры для двоих или больших компаний.</p>
+					</div>
+					<div class="main__discount-timer">
+						<div class="main__discount-border">
+							<div class="main__discount-border-top">
+								<span class="main__discount-border-top-left"></span>
+								<span class="main__discount-border-text">-10% скидка в субботу</span>
+								<span class="main__discount-border-top-right"></span>
+							</div>
+							<span class="main__discount-border-right"></span>
+							<span class="main__discount-border-left"></span>
+							<div class="main__discount-timer-text">
+								<p>Скидка для всех посетителей в субботу!</p>
+								<p>До конца акции осталось:</p>
+							</div>
+						</div>
+						
+						<div class="main__discount-border-timer">
+							<span class="main__discount-border-timer-left"></span>
+							<div class="timer"><script>var date_timer = new Date(2020,7,10,10,25,20);</script>
+								<div id="days-block">
+									<div class = "timer__block">
+										<div class = "timer__numbers">
+											<div class = "timer__item"><p id="days1"></p></div>
+											<div class = "timer__item"><p id="days2"></p></div>
+										</div>
+										<p>Дней</p>
+									</div>
+								</div>
+								<p id="days-dots" class = "timer__dots">:</p>
+								<div class = "timer__block">
+									<div class = "timer__numbers">
+										<div class = "timer__item"><p id="hours1"></p></div>
+										<div class = "timer__item"><p id="hours2"></p></div>
+									</div>
+									<p>Часов</p>
+								</div>
+								<p class = "timer__dots">:</p>
+								<div class = "timer__block">
+									<div class = "timer__numbers">
+										<div class = "timer__item"><p id="minutes1"></p></div>
+										<div class = "timer__item"><p id="minutes2"></p></div>
+									</div>
+									<p>Минут</p>
+								</div>
+								<p class = "timer__dots">:</p>
+								<div class = "timer__block">
+									<div class = "timer__numbers">
+										<div class = "timer__item"><p id="seconds1"></p></div>
+										<div class = "timer__item"><p id="seconds2"></p></div>
+									</div>
+									<p>Секунд</p>
+								</div>
+							</div>
+							<span class="main__discount-border-timer-right"></span>
+						</div>
+					</div>
+					<div class="book book__timer">
+						<button data-fancybox data-src="#modal-book" class="book__button">
+							Забронировать
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="main__reviews  h2-container">
+				<div class="main__reviews-content">
+					<div class="main__reviews-text" id="reviews">
+						<h2>Наши отзывы</h2>
+					</div>
+					<div class="slider">
+						<div class="slider__block">
+							<div class="slider__back">
+								<div class="slider__text">
+									<div class="slider__review-foto">
+										<img src="../img/review-foto.png" alt="User foto">
+									</div>
+									<h4>Анна Иванова</h4>
+									<p>24 года, Одесса</p>
+									<div class="slider__review">
+										<p>«Марципановая Мафия» - уникальное заведение Одессы, место, где можно не только вкусно поесть и отдохнуть, но и нескучно провести время за веселой игрой. В арт-кафе собрано большую коллекцию настольных игр, среди которых всеми любимые Монополия, Крокодил, Скрэбус, 
+	Эрудит, нарды, шахматы, домино, настольный футбол. Здесь у гостей есть возможность 
+	испытать себя и в более редких играх - Капитан очевидность, Карты конфликта, ЧеГевара, 
+	Гарсон, Скелеты  в шкафу, Взрывные котята и другие. Коллекция игр пополняется 
+	каждый месяц, а играть можно каждый день.</p>
+									</div>
+									
+									<div class="slider__review-clip">
+										<img src="../img/clip.png" alt="Clip">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slider__block">
+							<div class="slider__back">
+								<div class="slider__text">
+									<div class="slider__review-foto">
+										<img src="../img/review-foto.png" alt="User foto">
+									</div>
+									<h4>Анна Иванова</h4>
+									<p>24 года, Одесса</p>
+									<div class="slider__review">
+										<p>«Марципановая Мафия» - уникальное заведение Одессы, место, где можно не только вкусно поесть и отдохнуть, но и нескучно провести время за веселой игрой. В арт-кафе собрано большую коллекцию настольных игр, среди которых всеми любимые Монополия, Крокодил, Скрэбус, 
+	Эрудит, нарды, шахматы, домино, настольный футбол. Здесь у гостей есть возможность 
+	испытать себя и в более редких играх - Капитан очевидность, Карты конфликта, ЧеГевара, 
+	Гарсон, Скелеты  в шкафу, Взрывные котята и другие. Коллекция игр пополняется 
+	каждый месяц, а играть можно каждый день.</p>
+									</div>
+									<div class="slider__review-clip">
+										<img src="../img/clip.png" alt="Clip">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slider__block">
+							<div class="slider__back">
+								<div class="slider__text">
+									<div class="slider__review-foto">
+										<img src="../img/review-foto.png" alt="User foto">
+									</div>
+									<h4>Анна Иванова</h4>
+									<p>24 года, Одесса</p>
+									<div class="slider__review">
+										<p>«Марципановая Мафия» - уникальное заведение Одессы, место, где можно не только вкусно поесть и отдохнуть, но и нескучно провести время за веселой игрой. В арт-кафе собрано большую коллекцию настольных игр, среди которых всеми любимые Монополия, Крокодил, Скрэбус, 
+	Эрудит, нарды, шахматы, домино, настольный футбол. Здесь у гостей есть возможность 
+	испытать себя и в более редких играх - Капитан очевидность, Карты конфликта, ЧеГевара, 
+	Гарсон, Скелеты  в шкафу, Взрывные котята и другие. Коллекция игр пополняется 
+	каждый месяц, а играть можно каждый день.</p>
+									</div>
+									<div class="slider__review-clip">
+										<img src="../img/clip.png" alt="Clip">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slider__block">
+							<div class="slider__back">
+								<div class="slider__text">
+									<div class="slider__review-foto">
+										<img src="../img/review-foto.png" alt="User foto">
+									</div>
+									<h4>Анна Иванова</h4>
+									<p>24 года, Одесса</p>
+									<div class="slider__review">
+										<p>«Марципановая Мафия» - уникальное заведение Одессы, место, где можно не только вкусно поесть и отдохнуть, но и нескучно провести время за веселой игрой. В арт-кафе собрано большую коллекцию настольных игр, среди которых всеми любимые Монополия, Крокодил, Скрэбус, 
+	Эрудит, нарды, шахматы, домино, настольный футбол. Здесь у гостей есть возможность 
+	испытать себя и в более редких играх - Капитан очевидность, Карты конфликта, ЧеГевара, 
+	Гарсон, Скелеты  в шкафу, Взрывные котята и другие. Коллекция игр пополняется 
+	каждый месяц, а играть можно каждый день.</p>
+									</div>
+									<div class="slider__review-clip">
+										<img src="../img/clip.png" alt="Clip">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slider__block">
+							<div class="slider__back">
+								<div class="slider__text">
+									<div class="slider__review-foto">
+										<img src="../img/review-foto.png" alt="User foto">
+									</div>
+									<h4>Анна Иванова</h4>
+									<p>24 года, Одесса</p>
+									<div class="slider__review">
+										<p>«Марципановая Мафия» - уникальное заведение Одессы, место, где можно не только вкусно поесть и отдохнуть, но и нескучно провести время за веселой игрой. В арт-кафе собрано большую коллекцию настольных игр, среди которых всеми любимые Монополия, Крокодил, Скрэбус, 
+	Эрудит, нарды, шахматы, домино, настольный футбол. Здесь у гостей есть возможность 
+	испытать себя и в более редких играх - Капитан очевидность, Карты конфликта, ЧеГевара, 
+	Гарсон, Скелеты  в шкафу, Взрывные котята и другие. Коллекция игр пополняется 
+	каждый месяц, а играть можно каждый день.
+<p>«Марципановая Мафия» - уникальное заведение Одессы, место, где можно не только вкусно поесть и отдохнуть, но и нескучно провести время за веселой игрой. В арт-кафе собрано большую коллекцию настольных игр, среди которых всеми любимые Монополия, Крокодил, Скрэбус, 
+	Эрудит, нарды, шахматы, домино, настольный футбол. Здесь у гостей есть возможность 
+	испытать себя и в более редких играх - Капитан очевидность, Карты конфликта, ЧеГевара, 
+	Гарсон, Скелеты  в шкафу, Взрывные котята и другие. Коллекция игр пополняется 
+	каждый месяц, а играть можно каждый день.</p>
+									</div>
+									<div class="slider__review-clip">
+										<img src="../img/clip.png" alt="Clip">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="main__gallery  h2-container" id="gallery">
+				<div class="main__gallery-content">
+					<div class="main__gallery-text">
+						<h2>Галерея</h2>
+					</div>
+					<div class="gallery">
+						<div class="gallery__main-foto">
+							<a data-fancybox="gallery" href="../img/gallery/main-foto.png"><img src="../img/gallery/main-foto.png" alt="Main foto"></a>
+						</div>
+						<div class="gallery__foto">
+							<div class="gallery__item"><a data-fancybox="gallery" href="../img/gallery/gallery1.png"><img src="../img/gallery/gallery1.png" alt="Gallery foto"></a></div>
+							<div class="gallery__item"><a data-fancybox="gallery" href="../img/gallery/gallery2.png"><img src="../img/gallery/gallery2.png" alt="Gallery foto"></a></div>
+							<div class="gallery__item"><a data-fancybox="gallery" href="../img/gallery/gallery3.png"><img src="../img/gallery/gallery3.png" alt="Gallery foto"></a></div>
+							<div class="gallery__item"><a data-fancybox="gallery" href="../img/gallery/gallery4.png"><img src="../img/gallery/gallery4.png" alt="Gallery foto"></a></div>
+							<div class="gallery__item"><a data-fancybox="gallery" href="../img/gallery/gallery1.png"><img src="../img/gallery/gallery1.png" alt="Gallery foto"></a></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="main__institution h2-container">
+				<div class="main__institution-bg">
+					<div class="main__institution-content">
+						<div class="main__institution-text">
+							<h2>Описание заведения</h2>
+							<div class="main__institution-text-columns">
+								<p>«Марципановая Мафия» - уникальное заведение Одессы, место, где можно не только вкусно поесть и отдохнуть, 
+но и нескучно провести время за веселой игрой. 
+В арт-кафе собрано большую коллекцию настольных игр, среди которых всеми любимые Монополия, Крокодил, Скрэбус, Эрудит, нарды, шахматы, домино, настольный футбол. Здесь у гостей есть возможность испытать себя 
+и в более редких играх - Капитан очевидность, Карты конфликта, ЧеГевара, Гарсон, Скелеты  в шкафу, Взрывные котята и другие. Коллекция игр пополняется 
+каждый месяц, а играть можно каждый день.</p>
+<p>«Марципановая Мафия» - уникальное заведение Одессы, место, где можно не только вкусно поесть и отдохнуть, 
+но и нескучно провести время за веселой игрой. 
+В арт-кафе собрано большую коллекцию настольных игр, среди которых всеми любимые Монополия, Крокодил, Скрэбус, Эрудит, нарды, шахматы, домино, настольный футбол. Здесь у гостей есть возможность испытать себя 
+и в более редких играх - Капитан очевидность, Карты конфликта, ЧеГевара, Гарсон, Скелеты  в шкафу, Взрывные котята и другие. Коллекция игр пополняется 
+каждый месяц, а играть можно каждый день.</p>
+								<div class="main__institution-text-full">
+									<p>«Марципановая Мафия2» - уникальное заведение Одессы, место, где можно не только вкусно поесть и отдохнуть, 
+	но и нескучно провести время за веселой игрой. 
+	В арт-кафе собрано большую коллекцию настольных игр, среди которых всеми любимые Монополия, Крокодил, Скрэбус, Эрудит, нарды, шахматы, домино, настольный футбол. Здесь у гостей есть возможность испытать себя 
+	и в более редких играх - Капитан очевидность, Карты конфликта, ЧеГевара, Гарсон, Скелеты  в шкафу, Взрывные котята и другие. Коллекция игр пополняется 
+	каждый месяц, а играть можно каждый день.</p>
+	<p>«Марципановая Мафия2» - уникальное заведение Одессы, место, где можно не только вкусно поесть и отдохнуть, 
+	но и нескучно провести время за веселой игрой. 
+	В арт-кафе собрано большую коллекцию настольных игр, среди которых всеми любимые Монополия, Крокодил, Скрэбус, Эрудит, нарды, шахматы, домино, настольный футбол. Здесь у гостей есть возможность испытать себя 
+	и в более редких играх - Капитан очевидность, Карты конфликта, ЧеГевара, Гарсон, Скелеты  в шкафу, Взрывные котята и другие. Коллекция игр пополняется 
+	каждый месяц, а играть можно каждый день.</p>
+								</div>
+							</div>
+							<div class="main__institution-btn"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="main__recom h2-container" id="recom">
+				<div class="main__recom-content">
+					<div class="main__recom-text">
+						<h2>Рекомендуем посетить</h2>
+					</div>
+					<div class="party">
+						<ul class="party__block">
+							<li class="party__item">
+								<div class="party__icon"><a data-fancybox data-src="#cash-flow"><img src="../img/recommendations/cash-flow.png" alt="Cash flow"></a></div>
+								<a data-fancybox data-src="#cash-flow"><p>Cash flow</p></a>
+							</li>
+							<li class="party__item">
+								<div class="party__icon klabr"><a data-fancybox data-src="#klabr"><img src="../img/recommendations/klabr.png" alt="Klabr"></a></div>
+								<a data-fancybox data-src="#klabr"><p>Клабр</p></a>
+							</li>
+							<li class="party__item">
+								<div class="party__icon"><a data-fancybox data-src="#game-library"><img src="../img/recommendations/game-library.png" alt="Game library"></a></div>
+								<a data-fancybox data-src="#game-library"><p>Игротека</p></a>
+							</li>
+							<li class="party__item">
+								<div class="party__icon"><a data-fancybox data-src="#speed-dating"><img src="../img/recommendations/speed-dating.png" alt="Speed dating"></a></div>
+								<a data-fancybox data-src="#speed-dating"><p>Speed dating</p></a>
+							</li>
+						</ul>
+					</div>
+					<div class="book book__recom">
+							<button data-fancybox data-src="#modal-book-recom" class="book__button">
+								Забронировать
+							</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="main__map h2-container">
+				<div class="contacts" id="contacts">
+					<div class="contacts__content">
+						<h2>Контакты</h2>
+						<div class="contacts__address">
+							<div class="contacts__address-icon"><img src="../img/address.png" alt="Address"></div>
+							<p>ул. Пушкинская, 34, Одесса,<br> Одесская область, 65000</p>
+						</div>
+						<div class="contacts__phone phone">
+							<img src="../img/phone-black.png" alt="Phone">
+							<a href="tel:+380932065987">+38 (093) 206-59-87</a>
+						</div>
+						<div class="contacts__book book">
+							<button data-fancybox data-src="#modal-book-contacts" class="book__button">
+								Забронировать
+							</button>
+						</div>
+							<ul class="contacts__icons">
+								<li class="contacts__link"><a href="#"><div class="contacts__icons-item contacts__icons-facebook">
+								<i class="fab fa-facebook-f"></i>
+							</div></a></li>
+								<li class="contacts__link"><a href="#"><div class="contacts__icons-item contacts__icons-instagram">
+								<i class="fab fa-instagram"></i>
+							</div></a></li>
+								<li class="contacts__link"><a href="#"><div class="contacts__icons-item contacts__icons-google">
+								<i class="fab fa-google-plus-g"></i>
+							</div></a></li>
+							</ul>
+					</div>
+				</div>
+				<div class="map"><div class="map__content"></div></div>
+			</section>
+		</div>
+
+		<footer class="footer">
+			<div class="footer__content">
+				<p>© Марципановая Мафия 2019, Все права защищены</p>
+				<a href="#" class="footer__policy"><p>Политика конфиденциальности</p></a>
+			</div>
+		</footer>
+	</div>
+		<!-- Обычное модальное окно -->
+	<div id="modal-book">
+        <div class="modal-book-content">
+        	<form>
+        		<div class="input-wrap">
+		          	<label for="user-name">Имя</label>
+       				<input type="text" name="user-name" id="user-name">
+	          	</div>
+	          	<div class="input-wrap">
+	          	    <label for="user-phone">Номер телефона</label>
+	          	    <input type="tel" name="user-phone" id="user-phone" placeholder="(___) ___-__-__">
+	          	</div>
+	          	<div class="input-wrap">
+	          	    <input type="submit" name="submit">
+	          	</div>
+          	</form>
+      	</div>
+     </div>
+     	<!-- Модальное окно для контактов с датой -->
+     <div id="modal-book-contacts">
+        <div class="modal-book-content">
+        	<form>
+        		<div class="input-wrap">
+		          	<label for="user-name-contacts">Имя</label>
+       				<input type="text" name="user-name" id="user-name-contacts">
+	          	</div>
+	          	<div class="input-wrap">
+		          	<label for="user-date-contacts">Дата</label>
+       				<input type="date" name="user-date" id="user-date-contacts" value="2019-09-09">
+	          	</div>
+	          	<div class="input-wrap">
+	          	    <label for="user-phone-contacts">Номер телефона</label>
+	          	    <input type="tel" name="user-phone" id="user-phone-contacts" placeholder="(___) ___-__-__">
+	          	</div>
+	          	<div class="input-wrap">
+	          	    <input type="submit" name="submit">
+	          	</div>
+          	</form>
+      	</div>
+     </div>
+     	<!-- Модальное окно для выбора вечиринки -->
+     <div id="modal-book-recom">
+        <div class="modal-book-content">
+        	<form>
+        		<div class="input-wrap">
+        			<label for="party">Выбрать вечеринку</label>
+		          	<select name="party" id="party">
+		          	    <option selected value="Cash flow">Cash flow</option>
+		          	    <option value="Клабр">Клабр</option>
+		          	    <option value="Игротека">Игротека</option>
+		          	    <option value="Speed dating">Speed dating</option>
+		          	</select>
+	          	</div>
+	          	<div class="input-wrap">
+		          	<label for="user-name-recom">Имя</label>
+       				<input type="text" name="user-name" id="user-name-recom">
+	          	</div>
+	          	<div class="input-wrap">
+	          	    <label for="user-phone-recom">Номер телефона</label>
+	          	    <input type="tel" name="user-phone" id="user-phone-recom" placeholder="(___) ___-__-__">
+	          	</div>
+	          	<div class="input-wrap">
+	          	    <input type="submit" name="submit">
+	          	</div>
+          	</form>
+      	</div>
+     </div>
+     	<!-- Модальные окна с описанием вечеринок -->
+    <div id="cash-flow" class="modal-party">
+     	<div class="modal-party-content">
+     		<img src="../img/description-foto.png" alt="Cash flow">
+     		<h3>Cash flow</h3>
+     		<p>«Марципановая Мафия» - уникальное заведение Одессы, место, где можно не только вкусно поесть и отдохнуть, 
+	но и нескучно провести время за веселой игрой. 
+	В арт-кафе собрано большую коллекцию настольных игр, среди которых всеми любимые Монополия, Крокодил, Скрэбус, Эрудит, нарды, шахматы, домино, настольный футбол. Здесь у гостей есть возможность испытать себя 
+	и в более редких играх - Капитан очевидность, Карты конфликта, ЧеГевара, Гарсон, Скелеты  в шкафу, Взрывные котята и другие. Коллекция игр пополняется 
+	каждый месяц, а играть можно каждый день.</p>
+     	</div>
+    </div>
+    <div id="klabr" class="modal-party">
+     	<div class="modal-party-content">
+     		<img src="../img/description-foto.png" alt="Klabr">
+     		<h3>Клабр</h3>
+     		<p>«Марципановая Мафия» - уникальное заведение Одессы, место, где можно не только вкусно поесть и отдохнуть, 
+	но и нескучно провести время за веселой игрой. 
+	В арт-кафе собрано большую коллекцию настольных игр, среди которых всеми любимые Монополия, Крокодил, Скрэбус, Эрудит, нарды, шахматы, домино, настольный футбол. Здесь у гостей есть возможность испытать себя 
+	и в более редких играх - Капитан очевидность, Карты конфликта, ЧеГевара, Гарсон, Скелеты  в шкафу, Взрывные котята и другие. Коллекция игр пополняется 
+	каждый месяц, а играть можно каждый день.</p>
+     	</div>
+    </div>
+    <div id="game-library" class="modal-party">
+     	<div class="modal-party-content">
+     		<img src="../img/description-foto.png" alt="Game library">
+     		<h3>Игротека</h3>
+     		<p>«Марципановая Мафия» - уникальное заведение Одессы, место, где можно не только вкусно поесть и отдохнуть, 
+	но и нескучно провести время за веселой игрой. 
+	В арт-кафе собрано большую коллекцию настольных игр, среди которых всеми любимые Монополия, Крокодил, Скрэбус, Эрудит, нарды, шахматы, домино, настольный футбол. Здесь у гостей есть возможность испытать себя 
+	и в более редких играх - Капитан очевидность, Карты конфликта, ЧеГевара, Гарсон, Скелеты  в шкафу, Взрывные котята и другие. Коллекция игр пополняется 
+	каждый месяц, а играть можно каждый день.</p>
+     	</div>
+    </div>
+    <div id="speed-dating" class="modal-party">
+     	<div class="modal-party-content">
+     		<img src="../img/description-foto.png" alt="Speed dating">
+     		<h3>Speed dating</h3>
+     		<p>«Марципановая Мафия» - уникальное заведение Одессы, место, где можно не только вкусно поесть и отдохнуть, 
+	но и нескучно провести время за веселой игрой. 
+	В арт-кафе собрано большую коллекцию настольных игр, среди которых всеми любимые Монополия, Крокодил, Скрэбус, Эрудит, нарды, шахматы, домино, настольный футбол. Здесь у гостей есть возможность испытать себя 
+	и в более редких играх - Капитан очевидность, Карты конфликта, ЧеГевара, Гарсон, Скелеты  в шкафу, Взрывные котята и другие. Коллекция игр пополняется 
+	каждый месяц, а играть можно каждый день.</p>
+     	</div>
+    </div>
+
+     <a id="btn-scroll-top"><div class="btn-scroll-div">
+     	<img src="../img/arrow-scroll-top.png" alt="Up">
+     </div></a>
+
+
+	<script src="../js/libs/jquery.min.js"></script>
+	<script src="../libs/slick/slick.min.js"></script>
+	<script src="../libs/fancybox/jquery.fancybox.min.js"></script>
+	<script src="../js/script.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWsocnaEvMUqY0IabKrWHBHnQtxVvocRI&callback=initMap"
+    async defer></script>
+</body>
+</html>
